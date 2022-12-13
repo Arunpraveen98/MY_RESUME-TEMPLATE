@@ -3,6 +3,11 @@ body {
   color: white;
   margin: 20px;
 }
+/* #flex{
+ display:flex;
+ flex-direction: column;
+ flex-wrap:wrap;
+} */
 
 .main-div {
   border: 2px solid whitesmoke;
@@ -135,4 +140,65 @@ ul {
 
 #education {
   grid-area: education;
+}
+@media only screen and (min-width: 350px) and (max-width:600){
+  .main-div {
+    border: 2px solid whitesmoke;
+    border-width: 5px;
+    border-style: outset;
+    box-shadow: 10px 10px 10px whitesmoke;
+    height: 29cm;
+    width: 25cm;
+    margin: auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+      "name name"
+      "contact aboutme"
+      "skills carrer"
+      "languages education";
+  }
+
+}
+
+@media only screen and (min-width: 700px){
+  .main-div {
+    border: 2px solid whitesmoke;
+    border-width: 5px;
+    border-style: outset;
+    box-shadow: 10px 10px 10px whitesmoke;
+    height: 29cm;
+    width: 25cm;
+    margin: auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+      "name name"
+      "contact aboutme"
+      "skills carrer"
+      "languages education";
+  }
+
+}
+
+@media only screen and (min-width: 1200px){
+  .main-div {
+    border: 2px solid whitesmoke;
+    border-width: 5px;
+    border-style: outset;
+    box-shadow: 10px 10px 10px whitesmoke;
+    height: 29cm;
+    width: 25cm;
+    margin: auto;
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:
+      "name name"
+      "contact aboutme"
+      "skills carrer"
+      "languages education";
+  }
 }
