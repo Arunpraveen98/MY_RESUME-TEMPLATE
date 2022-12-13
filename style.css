@@ -5,7 +5,9 @@ body {
 }
 
 .main-div {
-  border: 2px solid yellow;
+  border: 2px solid whitesmoke;
+  border-width: 5px;
+  border-style: outset;
   box-shadow: 10px 10px 10px whitesmoke;
   height: 29cm;
   width: 25cm;
@@ -111,6 +113,11 @@ ul {
   position: relative;
 }
 
+#bar {
+  text-align: center;
+  padding-top: 10px;
+}
+
 #languages-known {
   grid-area: languages;
   background-color: lightsteelblue;
@@ -120,7 +127,6 @@ ul {
 
 #about-me {
   grid-area: aboutme;
-
 }
 
 #carrer-objective {
