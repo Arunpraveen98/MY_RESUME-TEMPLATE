@@ -1,0 +1,132 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 20px;
+}
+
+.main-div {
+  border: 2px solid yellow;
+  box-shadow: 30px 30px 30px whitesmoke;
+  height: 29cm;
+  width: 25cm;
+  margin: auto;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-areas:
+    "name name"
+    "contact aboutme"
+    "skills carrer"
+    "languages education";
+}
+
+#name {
+  text-align: center;
+  grid-area: name;
+  padding-top: 25px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: black;
+  @import url("https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap");
+  font-family: "Rubik 80s Fade", cursive;
+  text-shadow: 2px 2px 4px whitesmoke;
+}
+#title1 {
+  background-color: aqua;
+}
+#title2 {
+  background-color: ghostwhite;
+}
+
+#contact-details {
+  color: black;
+  text-align: center;
+  grid-area: contact;
+  background-color: lightsteelblue;
+  padding-left: 5px;
+  margin-top: 8px;
+}
+
+.c {
+  text-align: center;
+  background-color: chocolate;
+}
+
+.right {
+  padding-left: 15px;
+  color: black;
+}
+
+.para {
+  text-align: justify;
+  padding: 20px;
+  font-size: large;
+  font-weight: bolder;
+}
+
+table {
+  table-layout: auto;
+  width: 180px;
+  border: 1px solid white;
+  padding: 5px;
+  background-color: black;
+  margin-left: 40px;
+}
+
+th {
+  border: 1px solid white;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+  background-color: yellow;
+}
+td {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+}
+#h3 {
+  text-align: center;
+  color: black;
+  background-color: lawngreen;
+}
+
+.h6 {
+  margin: 25px;
+}
+
+ul {
+  color: black;
+}
+
+.list {
+  position: relative;
+  left: 68px;
+  padding-top: 10px;
+}
+
+#skills {
+  grid-area: skills;
+  background-color: lightsteelblue;
+  position: relative;
+}
+
+#languages-known {
+  grid-area: languages;
+  background-color: lightsteelblue;
+  color: black;
+  text-align: center;
+}
+
+#about-me {
+  grid-area: aboutme;
+
+}
+
+#carrer-objective {
+  grid-area: carrer;
+}
+
+#education {
+  grid-area: education;
+}
